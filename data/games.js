@@ -1,7 +1,7 @@
 const Spelunky2 = {
     id: 'Spelunky2',
     name: 'Spelunky 2',
-    image: '../assets/spelunky-2.png',
+    image: '../assets/spelunky-2.jpg',
     description: 'A game that makes you hate yourself',
     category: 'Rouge-like',
     price: '30'
@@ -10,7 +10,7 @@ const Spelunky2 = {
 const Valheim = {
     id: 'valheim',
     name: 'Valheim',
-    image: '../assets/valheim.png',
+    image: '../assets/valheim.jpg',
     description: 'Like Minecraft, but less to do and you are vikings',
     category: 'Survival',
     price: '20'
@@ -19,7 +19,7 @@ const Valheim = {
 const AmongUs = {
     id: 'amongus',
     name: 'Among Us',
-    image: '../assets/amongus.png',
+    image: '../assets/amongus.jpg',
     description: 'Lie to everyone',
     category: 'Deception',
     price: '5'
@@ -28,7 +28,7 @@ const AmongUs = {
 const Stellaris = {
     id: 'stellaris',
     name: 'Stellaris',
-    image: '../assets/stellaris.png',
+    image: '../assets/stellaris.jpg',
     description: 'Take over the galaxy, fight other alien races',
     category: 'Grand-Strategy',
     price: '40'
@@ -37,7 +37,7 @@ const Stellaris = {
 const Phasmophobia = {
     id: 'phasmophobia',
     name: 'Phasmophobia',
-    image: '../assets/phasmophobia.png',
+    image: '../assets/phasmophobia.jpg',
     description: 'Hunt ghosts with friends',
     category: 'Horror',
     price: '30'
