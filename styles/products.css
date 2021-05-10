@@ -5,10 +5,10 @@
 
 #games li {
     position: relative;
-    border: 2px solid gray;
+    border: 2px solid black;
     border-radius: 8px;
     width: 180px;
-    height: 180px;
+    height: 220px;
     margin-right: 5px;
     margin-bottom: 5px;
     text-align: center;

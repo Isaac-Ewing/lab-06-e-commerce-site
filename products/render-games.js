@@ -18,9 +18,13 @@ export function renderGames(games) {
     span.textContent = `$${games.price}`;
 
     const button = document.createElement('button');
-    button.textContent = 'Add';
+    button.textContent = 'Add to Cart';
     button.value = games.id;
     span.appendChild(button);
+
+    const h3 = document.createElement('h3');
+    h3.textContent = games.description;
+    li.appendChild(h3);
 
     li.appendChild(span);
     return (li);
