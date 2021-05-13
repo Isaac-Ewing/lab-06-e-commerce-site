@@ -12,7 +12,7 @@ export function renderCartItem(item, games) {
     nameTd.textContent = game.name;
     quantity.textContent = item.quantity;
     const t = Number(game.price) * item.quantity;
-    total.textContent = `${Number(t)}`;
+    total.textContent = '$' + `${Number(t)}`;
     price.textContent = '$' + game.price;
     tr.append(nameTd, quantity, price, total);
     return (tr);

@@ -1,1 +1,10 @@
 /* add home page styles here */
+table, th, td {
+    position: relative;
+    border-collapse: collapse;
+    border: solid;
+}
+
+#total {
+    border: none;
+}

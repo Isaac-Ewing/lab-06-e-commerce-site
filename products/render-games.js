@@ -1,3 +1,5 @@
+import { addItemToCart } from '../local-storage-utils.js';
+
 export function renderGames(games) {
     const li = document.createElement('li');
     li.classList.add(games.category);
@@ -27,5 +29,8 @@ export function renderGames(games) {
     li.appendChild(h3);
 
     li.appendChild(span);
+    button.addEventListener('click', () => {
+        addItemToCart(games.id);
+    });
     return (li);
 }
