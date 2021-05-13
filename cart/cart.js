@@ -22,6 +22,14 @@ total.textContent = '$' + `${totalPrice}`;
 if (totalPrice > 0) {
     orderButton.style.opacity = 1;
     orderButton.addEventListener('click', () => {
+        let string = '';
+        for (let item of cartItems) {
+            let game = findById(games, item.id);
+            string = string + JSON.stringify(game.name) + ',';
+        }
+        string = 'You are about to buy: ' + string;
+        string = string.substring(0, string.length - 1);
+        alert(string);
         localStorage.removeItem('CART');
     });
 }
